@@ -1,3 +1,4 @@
+#Classes and expections made in sentencing of crimes or lack theoreof based on charge data.
 class Criminal:
     def __init__(self, name, num_fraud, num_assault, num_murder, victims):
         if num_fraud + num_assault + num_murder != len(victims):
