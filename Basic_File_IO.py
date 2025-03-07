@@ -1,4 +1,6 @@
-#PA8solution
+#Background
+#The purpose of this assignment is to practice reading and writing text files programatically. Our example task for this is a simple program that can read and store assignment grades to and
+#from text files. This coupled with the grade calculation functions from the Course_Grade_Calculator.py should give you a useful tool.
 def read_grades_file(filename, project=False):
 	rv = dict()
 	with open(filename) as f:
