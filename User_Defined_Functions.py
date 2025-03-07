@@ -1,3 +1,5 @@
+#This is an insurance company currently working on an application to keep track of which of their insured members have met their deductible for the
+#year. An insured member is eligible for 100% coverage if they have met their deductible of $3000 or higher.
 def fullCoverageClearance(dataDict={}):
 	boolList = []
 	if dataDict == {}:
