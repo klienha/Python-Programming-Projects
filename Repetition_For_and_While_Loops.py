@@ -1,3 +1,4 @@
+#For and while loops practice with LOTR
 def break_time(hours_worn, last_break):
     
     result = 0
